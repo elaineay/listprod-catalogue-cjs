@@ -18,7 +18,7 @@ This guide is assuming some basic knowledge of the following:
 - what an API is and how/when to use it
 - JS frameworks
 
-### Setup
+### Chec Setup
 
 1. Register or sign in to your Chec account. 
 Chec is the eCommerce infrastructure and platform the Commerce.js SDK is built upon to support a broad spectrum of merchants and use-cases.
@@ -42,7 +42,7 @@ Use our Commerce.js SDK to access the Chec API data from your application. Insta
 ```
 <script type="text/javascript" src="https://assets.chec-cdn.com/v2/commerce.js"></script>
 ```
-
+Use one of the keys mentioned above!
 ```
 // The following line will create a new Commerce instance!
 const commerce = new Commerce('{public_api_key}', true);
@@ -57,29 +57,22 @@ In your project's root folder, type this command in your terminal:
 ```
 npm install @chec/commerce.js
 ```
+Use one of the keys mentioned above!
 ```
 import Commerce from '@chec/commerce.js';
 // The following line will create a new Commerce instance!
 const commerce = new Commerce('{public_api_key}', true);4
 ```
 
-### Project usage
+### Project Steps
 
-A step by step series on injecting Commerce.js logic.
-
-1. First step of injecting Commerce.js logic
-
+1. Log products to the console
+- All calls using the Commerce.js SDK will have responses returned asynchronously in Promises.
 ```
 example script
 ```
 
 2. And repeat
-
-```
-example script
-```
-
-2. Until finished
 
 ```
 example script
@@ -99,6 +92,4 @@ List all frameworks/tools used.
 
 ## Authors
 
-* **Name** - [Github](https://github.com/chec)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Elaine Au-Yang** - [Github](https://github.com/elaineay)
