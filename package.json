@@ -1,0 +1,19 @@
+{
+  "name": "listprod-catalogue-cjs",
+  "version": "1.0.0",
+  "description": "The goal of this guide is to provide a basic walkthrough on how to list products in a catalog using the Commerce.js SDK.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elaineay/listprod-catalogue-cjs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elaineay/listprod-catalogue-cjs/issues"
+  },
+  "homepage": "https://github.com/elaineay/listprod-catalogue-cjs#readme"
+}
