@@ -33,7 +33,7 @@ Chec is the eCommerce infrastructure and platform the Commerce.js SDK is built u
 
 ### Installing Commerce.js
 
-Use our Commerce.js SDK to access the Chec API data from your application. Installing Commerce.js will require using either your "Public Key" or "Sandbox Public Key". As mentioned in step 2 of setup, read more about their usages [here](https://commercejs.com/docs/overview/getting-started.html).
+Use our Commerce.js SDK to access the Chec API data from your application. Installing Commerce.js will require using either your "Public Key" or "Sandbox Public Key". As mentioned in step 1 of Chec setup, read more about their usages [here](https://commercejs.com/docs/overview/getting-started.html).
 
 *Choose either one of the installation methods:* 
 
@@ -52,19 +52,13 @@ Adding true as the second constructor argument enables the Commerce.js console d
 
 2. Installing via NPM
 
-In your project's root folder, type this command in your terminal:
+Navigate to your project's root folder and type this command in your terminal:
 
 ```
 npm install @chec/commerce.js
 ```
-Use one of the keys mentioned above!
-```
-import Commerce from '@chec/commerce.js';
-// The following line will create a new Commerce instance!
-const commerce = new Commerce('{public_api_key}', true);4
-```
 
-### Project Steps
+### Project Setup
 
 1. Install Vue.js
 ```
@@ -91,6 +85,21 @@ npm install
 npm run serve
 # OR
 yarn serve
+```
+
+## Using Commerce.js logic
+
+1. Create a new Commerce instance
+
+Navigate to the `src/main.js` file and add the following lines:
+```
+import Commerce from '@chec/commerce.js';
+```
+
+Use one of the public keys mentioned in step 2 of Chec setup.
+```
+// The following line will create a new Commerce instance!
+const commerce = new Commerce('{public_api_key}', true);
 ```
 
 3. Log products to the console
