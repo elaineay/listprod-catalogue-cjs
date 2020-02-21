@@ -66,7 +66,34 @@ const commerce = new Commerce('{public_api_key}', true);4
 
 ### Project Steps
 
-1. Log products to the console
+1. Install Vue.js
+```
+npm install -g @vue/cli
+```
+- More information on different installation methods can be found [here](https://vuejs.org/v2/guide/installation.html).
+- Using `/cli` behind @vue will ensure the command line tools for Vue will also be installed, and the `-g` will install Vue globally on your machine. More information [here](https://cli.vuejs.org/).
+
+2. Vue set-up
+- Create a new Vue project with a name of your choice (ie. project-name)
+```
+vue create project-name
+```
+- Enter your project's directory
+```
+cd project-name
+```
+- Install any relevant dependencies prompted by the command
+```
+npm install
+```
+- Start the [Vue development server](https://cli.vuejs.org/guide/cli-service.html#using-the-binary) using yarn or npm. (Important that you do this within your project directory!)
+```
+npm run serve
+# OR
+yarn serve
+```
+
+3. Log products to the console
 - All calls using the Commerce.js SDK will have responses returned asynchronously in Promises.
 ```
 example script
